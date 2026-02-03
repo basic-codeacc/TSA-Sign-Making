@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TSA Sign-Making Party – Full Event List</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f6f6f6;
+      color: #222;
+    }
+    header {
+      padding: 1rem 2rem;
+      background: #222;
+      color: #fff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    header p {
+      margin: 0.25rem 0 0;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    main {
+      padding: 1.5rem 2rem 3rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .session-info {
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      border: none;
+      background: #e0e0e0;
+      padding: 0.5rem 0.9rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .tab-btn.active {
+      background: #222;
+      color: #fff;
+    }
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .card small {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #666;
+    }
+    .pill {
+      display: inline-block;
+      background: #f0f0f0;
+      border-radius: 999px;
+      padding: 0.15rem 0.6rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-right: 0.25rem;
+      margin-top: 0.15rem;
+    }
+    .arrow {
+      font-size: 1.8rem;
+      margin-top: 0.25rem;
+    }
+    .print-note {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    button.print-btn {
+      margin-top: 0.75rem;
+      padding: 0.5rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid #222;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    @media print {
+      header, .tabs, .session-info, .print-note, .print-btn {
+        display: none !important;
+      }
+      main {
+        padding: 0.5in;
+      }
+      body {
+        background: #fff;
+      }
+      .card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>TSA Sign-Making Party</h1>
+  <p>Create and print room, directional, and judge signs for all competition events.</p>
+</header>
+
+<main>
+  <div class="session-info">
+    <strong>Sessions:</strong>
+    Session 1 – 9:00–10:00 AM &nbsp; | &nbsp;
+    Session 2 – 10:15–11:15 AM
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-target="rooms">Room Assignments</button>
+    <button class="tab-btn" data-target="directional">Directional Signs</button>
+    <button class="tab-btn" data-target="judges">Judge &amp; Event Signs</button>
+    <button class="tab-btn" data-target="session-labels">Session Labels</button>
+  </div>
+
+  <!-- ROOM ASSIGNMENT SIGNS: MERGED SHARED ROOMS -->
+  <section id="rooms" class="section active">
+    <div class="grid">
+
+      <!-- A HALL -->
+      <div class="card">
+        <small>A301</small>
+        <h3>Prepared Presentation</h3>
+        <div>
+          <span class="pill">Session 1</span>
+          <span class="pill">Session 2</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <small>A302</small>
+        <h3>Extemporaneous Speech / Debating Technological Issues</h3>
+        <div>
+          <span class="pill">Session 1</span>
+          <span class="pill">Session 2</span>
+          <span class="pill">Debate starts 10:30</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <small>A303</small>
+        <h3>Fashion Design and Technology</h3>
+        <div>
+          <span class="pill">Session 1</span>
+          <span class="pill">Session 2</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <small>A304</small>
+        <h3>Biotechnology Design</h3>
+        <div>
+          <span class="pill">Session 1</span>
+          <span class="pill">Session 2</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <small>A305</small>
+        <h3>Coding / CAD – Architecture / CAD – Engineering</h3>
+        <p>Events run simultaneously in this room.</p>
+      </div>
+
+      <div class="card">
+        <small>A306</small>
+        <h3>Administrative Office</h3>
+        <p>Vocats workroom; not an event room.</p>
+      </div>
+
+      <div class="card">
+        <small>A307</small>
+        <h3>Chapter Team / Future Technology and Engineering Teacher</h3>
+      </div>
+
+      <div class="card">
+        <small>Auditorium</small>
+        <h3>Opening Session / Closing Session / Awards</h3>
+      </div>
+
+      <!-- B HALL -->
+      <div class="card">
+        <small>B301</small>
+        <h3>Manufacturing Prototype</h3>
+      </div>
+
+      <div class="card">
+        <small>B302</small>
+        <h3>Room Not In Use</h3>
+        <p>Off-limits.</p>
+      </div>
+
+      <div class="card">
+        <small>B303</small>
+        <h3>Promotional Design / On Demand Video</h3>
+        <p>On Demand Video judged last in this room.</p>
+      </div>
+
+      <div class="card">
+        <small>B304</small>
+        <h3>Tabulations Room</h3>
+        <p>Final scoring and spreadsheets.</p>
+      </div>
+
+      <div class="card">
+        <small>B305</small>
+        <h3>Photographic Technology</h3>
+      </div>
+
+      <div class="card">
+        <small>B306</small>
+        <h3>Structural Design and Engineering / Music Production</h3>
+      </div>
+
+      <div class="card">
+        <small>B307</small>
+        <h3>Technology Problem Solving</h3>
+      </div>
+
+      <div class="card">
+        <small>B308</small>
+        <h3>Animatronics / Webmaster</h3>
+      </div>
+
+      <div class="card">
+        <small>B309</small>
+        <h3>Software Development</h3>
+      </div>
+
+      <div class="card">
+        <small>B310</small>
+        <h3>Board Game Design</h3>
+      </div>
+
+      <div class="card">
+        <small>B311</small>
+        <h3>Robotics / Video Game Design</h3>
+      </div>
+
+      <!-- C HALL -->
+      <div class="card">
+        <small>C304</small>
+        <h3>Engineering Design</h3>
+      </div>
+
+      <div class="card">
+        <small>C306</small>
+        <h3>Audio Podcasting / Virtual Reality Visualization</h3>
+      </div>
+
+      <div class="card">
+        <small>C307</small>
+        <h3>Forensic Science</h3>
+      </div>
+
+      <div class="card">
+        <small>C308</small>
+        <h3>Architectural Design</h3>
+      </div>
+
+      <div class="card">
+        <small>C310</small>
+        <h3>Digital Video Production</h3>
+      </div>
+
+      <div class="card">
+        <small>C311</small>
+        <h3>Geospatial Technology</h3>
+      </div>
+
+      <div class="card">
+        <small>C312</small>
+        <h3>Transportation Modeling / STEM Mass Media</h3>
+      </div>
+
+      <div class="card">
+        <small>C313</small>
+        <h3>Children’s Stories</h3>
+      </div>
+
+      <div class="card">
+        <small>C314</small>
+        <h3>Data Science and Analytics</h3>
+      </div>
+
+      <!-- OTHER LOCATIONS -->
+      <div class="card">
+        <small>Cafeteria – Back</small>
+        <h3>Flight Endurance</h3>
+        <p>Morning only; subject to change.</p>
+      </div>
+
+      <div class="card">
+        <small>Cafeteria – Main</small>
+        <h3>Student Gathering / Student Lunch</h3>
+      </div>
+
+      <div class="card">
+        <small>Mall Entrance</small>
+        <h3>Judges &amp; Student Check-In</h3>
+      </div>
+
+      <div class="card">
+        <small>Media – Hospitality</small>
+        <h3>Hospitality Room – Adults Only</h3>
+      </div>
+
+      <div class="card">
+        <small>Media – Right Side</small>
+        <h3>Drone Challenge / Senior Solar Sprint (Backup)</h3>
+      </div>
+
+      <div class="card">
+        <small>Outside by Lower Trailers</small>
+        <h3>Senior Solar Sprint</h3>
+      </div>
+    </div>
+
+    <p class="print-note">
+      Print one card per page for large door signs, or multiple cards per page for hallway summaries.
+    </p>
+    <button class="print-btn" onclick="window.print()">Print current view</button>
+  </section>
+
+  <!-- DIRECTIONAL SIGNS (unchanged) -->
+  <section id="directional" class="section">
+    <div class="grid">
+      <div class="card">
+        <small>Directional</small>
+        <h3>Tabulation Room – This Way</h3>
+        <div class="arrow">←</div>
+      </div>
+      <div class="card">
+        <small>Directional</small>
+        <h3>Tabulation Room – This Way</h3>
+        <div class="arrow">→</div>
+      </div>
+      <div class="card">
+        <small>Directional</small>
+        <h3>Tabulation Room – This Way</h3>
+        <div class="arrow">↑</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>Judges &amp; Student Check-In</h3>
+        <div class="arrow">→</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>Auditorium – Opening &amp; Awards</h3>
+        <div class="arrow">←</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>A300s Event Rooms</h3>
+        <div class="arrow">↑</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>B300s Event Rooms</h3>
+        <div class="arrow">↑</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>C300s Event Rooms</h3>
+        <div class="arrow">↑</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>Cafeteria – Flight Endurance</h3>
+        <div class="arrow">→</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>Media Center / Drone Challenge / Senior Solar Sprint</h3>
+        <div class="arrow">↑</div>
+      </div>
+
+      <div class="card">
+        <small>Directional</small>
+        <h3>Hospitality Room – Adults Only</h3>
+        <div class="arrow">→</div>
+      </div>
+
+      <div class="card">
+        <small>Hall Summary</small>
+        <h3>The Following Events Conducted Down This Hall:</h3>
+        <p>Prepared Presentation · Extemporaneous Speech · Debating Technological Issues · Fashion Design · Coding / CAD</p>
+      </div>
+
+      <div class="card">
+        <small>Hall Summary</small>
+        <h3>The Following Events Conducted Down This Hall:</h3>
+        <p>Manufacturing Prototype · Promotional Design · On Demand Video · Photographic Technology · Structural Design &amp; Engineering · Music Production · Technology Problem Solving · Animatronics · Webmaster · Software Development · Board Game Design · Robotics · Video Game Design</p>
+      </div>
+
+      <div class="card">
+        <small>Hall Summary</small>
+        <h3>The Following Events Conducted Down This Hall:</h3>
+        <p>Engineering Design · Audio Podcasting · Virtual Reality Visualization · Forensic Science · Architectural Design · Digital Video Production · Geospatial Technology · Transportation Modeling · STEM Mass Media · Children’s Stories · Data Science and Analytics</p>
+      </div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Print current view</button>
+  </section>
+
+  <!-- JUDGES (same events; you can leave as-is from previous version) -->
+  <section id="judges" class="section">
+    <div class="grid">
+      <!-- keep all judge cards exactly as they were in the previous version -->
+      <!-- A HALL EVENTS -->
+      <div class="card">
+        <small>Judges</small>
+        <h3>Prepared Presentation</h3>
+        <p>Jaya Jain &amp; Sanjay Rao</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Extemporaneous Speech</h3>
+        <p>Venkata Petchetti &amp; Suganya Nelatoor</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Debating Technological Issues</h3>
+        <p>Pravin Kagwade &amp; Rahul Raut</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Fashion Design and Technology</h3>
+        <p>Ratnamala Dhote &amp; Lakshmi Molugu</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Biotechnology Design</h3>
+        <p>Subhashini Vardireddy, Lakshmi Mallavarapu &amp; Deepa Kalangi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Coding</h3>
+        <p>Anilkumar Pai &amp; Dipak Patil</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>CAD – Architecture</h3>
+        <p>Srinivasa Guntur &amp; Sree Goppa</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>CAD – Engineering</h3>
+        <p>Gopal Agarwal &amp; Michael Dam</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Chapter Team</h3>
+        <p>Michelle Molina &amp; Luciana Astolfi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Future Technology and Engineering Teacher</h3>
+        <p>Teenak Joby &amp; Prakash Kumar</p>
+      </div>
+
+      <!-- B HALL EVENTS -->
+      <div class="card">
+        <small>Judges</small>
+        <h3>Manufacturing Prototype</h3>
+        <p>Gwen Yang &amp; Debajyoti Maitra</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Promotional Design</h3>
+        <p>Susan B. Medina &amp; Jennifer Nachman</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>On Demand Video</h3>
+        <p>Shiva Kumar &amp; Lily Bauri</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Photographic Technology</h3>
+        <p>Keerthi Ranganatha &amp; Archana Prabhu</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Structural Design and Engineering</h3>
+        <p>Crystal Pereira &amp; Meghna Patel</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Music Production</h3>
+        <p>Raj Radhakrishnan &amp; Mohammed Raffe Samathu</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Technology Problem Solving</h3>
+        <p>Prashant Sarode &amp; Sachin Chandrakar</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Animatronics</h3>
+        <p>Amarendra Behera &amp; Ameet Maheswari</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Webmaster</h3>
+        <p>Amarendra Behera &amp; Ameet Maheswari</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Software Development</h3>
+        <p>Prashant Hippalgaonkar &amp; Durai Balaji Perumalsamy</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Board Game Design</h3>
+        <p>May Wang &amp; Nalini Chennamadhavuni</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Robotics</h3>
+        <p>Vishal Kulkarni, Zhi Liu &amp; Srikantha Bethi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Video Game Design</h3>
+        <p>Daniel Fenn &amp; Gopikrishna Bangaru</p>
+      </div>
+
+      <!-- C HALL EVENTS -->
+      <div class="card">
+        <small>Judges</small>
+        <h3>Engineering Design</h3>
+        <p>Suresh Koutam &amp; Umesh Shaw</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Audio Podcasting</h3>
+        <p>Aashima Sindhwani &amp; Sai Gurram</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Virtual Reality Visualization</h3>
+        <p>Shankar Reddy &amp; Pavan Veluri</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Forensic Science</h3>
+        <p>Harshini Kovur &amp; Krishna Priya Moturi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Architectural Design</h3>
+        <p>Narayana Auluka &amp; Prasad Bakshi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Digital Video Production</h3>
+        <p>Sandhya Dahal &amp; Garboi Gaioni</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Geospatial Technology</h3>
+        <p>Jaya Chandra Choudam &amp; Raj Yellari</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Transportation Modeling</h3>
+        <p>Manmohan Reddy Pothula &amp; Shweta Soni</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>STEM Mass Media</h3>
+        <p>Veera Thota &amp; Hemi Shah</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Children’s Stories</h3>
+        <p>Sarada Prathivadi &amp; Shouling Zhao</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Data Science and Analytics</h3>
+        <p>Chandrasekhar Varre &amp; Shashidhar Makkapati</p>
+      </div>
+
+      <!-- OTHER LOCATIONS -->
+      <div class="card">
+        <small>Judges</small>
+        <h3>Flight Endurance</h3>
+        <p>Karthikeyan Loganathan, Shailesh Shukla &amp; Srikantha Bethi</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Senior Solar Sprint</h3>
+        <p>Gayathri Narayanan Subramanian &amp; Vimala Sridharan</p>
+      </div>
+
+      <div class="card">
+        <small>Judges</small>
+        <h3>Drone Challenge</h3>
+        <p>Shailesh Verma, Amit Srivastava &amp; Tarunpreet Kaur</p>
+      </div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Print current view</button>
+  </section>
+
+  <!-- SESSION LABELS -->
+  <section id="session-labels" class="section">
+    <div class="grid">
+      <div class="card">
+        <small>Session Label</small>
+        <h3>Session 1 Only</h3>
+        <p>9:00–10:00 AM</p>
+      </div>
+
+      <div class="card">
+        <small>Session Label</small>
+        <h3>Session 2 Only</h3>
+        <p>10:15–11:15 AM</p>
+      </div>
+
+      <div class="card">
+        <small>Session Label</small>
+        <h3>Sessions 1 &amp; 2</h3>
+        <p>Use for events that run both sessions.</p>
+      </div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Print current view</button>
+  </section>
+</main>
+
+<script>
+  const buttons = document.querySelectorAll('.tab-btn');
+  const sections = document.querySelectorAll('.section');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.target;
+      buttons.forEach(b => b.classList.remove('active'));
+      sections.forEach(s => s.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(target).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
+
